@@ -22,7 +22,7 @@ h2{
 /*selector de clase*/
 .principal{
     width: 300px;
-    height: 85px;
+    height: 120px;
     margin: 200px auto;
 }
 
@@ -53,7 +53,7 @@ footer>h6{
 
 /*selectores adiacente*/
 
-h6+p{
+p+p{
     text-align: center;
 }
 
