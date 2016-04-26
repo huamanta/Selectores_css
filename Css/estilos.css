@@ -12,3 +12,17 @@ h2{
     text-align: center;
     margin: 20px 0px;
 }
+
+/*selector descendiente*/
+div p{
+    color: red;
+    text-align: center;
+}
+
+/*selector de clase*/
+
+.principal{
+    width: 300px;
+    height: 85px;
+    margin: 0 auto;
+}
