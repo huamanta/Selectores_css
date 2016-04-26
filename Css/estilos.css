@@ -16,13 +16,31 @@ h2{
 /*selector descendiente*/
 div p{
     color: red;
-    text-align: center;
+    text-align: justify;
 }
 
 /*selector de clase*/
-
 .principal{
     width: 300px;
     height: 85px;
     margin: 0 auto;
+}
+
+/*selector de id*/
+#textos{
+    color: blue;
+    margin: 10px 0;
+}
+
+/*selector descendentes combinados*/
+.principal #textos input{
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    margin: 10px 0;
+    height: 20px;
+}
+.principal #textos laabel{
+    border-radius: 10px;
+    width: 100px;
 }
