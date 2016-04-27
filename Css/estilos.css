@@ -72,3 +72,11 @@ h4~p{
     text-align: center;
 }
 
+
+/*SELECTOR DE ATRIBUTOS
+
+selector de atributo basico*/
+
+footer[href]{
+    background: grey;
+}
