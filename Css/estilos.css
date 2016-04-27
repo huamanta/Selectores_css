@@ -55,7 +55,6 @@ footer>h6{
 
 h4+p{
     color: red;
-    font-family: monospace;
 }
 /*h4+p+p{
     clor: red;
@@ -103,5 +102,13 @@ a[href^="https://"]{
     text-decoration: none;
 }
 
+/*Selector de atributo “Termina con”*/
 a[href$=".pe"]{
     text-decoration: none;
+}
+
+/*Selector de atributo “contiene”*/
+
+p[title*="footer"]{
+    font-family: monospace;
+}
