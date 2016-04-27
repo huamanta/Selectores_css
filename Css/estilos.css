@@ -102,3 +102,6 @@ h5[class|="nombre"]{
 a[href^="https://"]{
     text-decoration: none;
 }
+
+a[href$=".pe"]{
+    text-decoration: none;
