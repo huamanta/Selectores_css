@@ -54,16 +54,21 @@ footer>h6{
 /*selectores adiacente*/
 
 h4+p{
-    text-align: center;
+    color: red;
+    font-family: monospace;
 }
-h4+p+p{
-    text-align: center;
+/*h4+p+p{
+    clor: red;
 }
 h4+p+p+p{
     text-align: center;
 }
 h4+p+p+p+p{
     text-align: center;
-}
+}*/
+
+/*selector del hermano general*/
+
+
 
 
