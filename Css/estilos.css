@@ -78,12 +78,13 @@ h4~p{
 selector de atributo basico*/
 
 a[href]{
-    text-decoration:none ;
+    color:dimgrey;
 }
 
 /*Selector de atributo con valor exacto*/
 a[href="registro"]{
     float: right;
+    text-decoration: none;
 }
 
 /*Selector de Atributo de una lista de valores separados por espacio*/
@@ -95,4 +96,9 @@ h5[class~="nombre"]{
 h5[class|="nombre"]{
     color: red;
     text-align: center;
+}
+
+/*Selector de atributo “Comienza con”*/
+a[href^="https://"]{
+    text-decoration: none;
 }
