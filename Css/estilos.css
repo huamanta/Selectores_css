@@ -81,5 +81,8 @@ a[href]{
     text-decoration:none ;
 }
 
-
+/*Selector de atributo con valor exacto*/
+a[href="registro"]{
+    float: right;
+}
 
