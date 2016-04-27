@@ -68,7 +68,7 @@ h4+p+p+p+p{
 }*/
 
 /*selector del hermano general*/
-
-
-
+h4~p{
+    text-align: center;
+}
 
