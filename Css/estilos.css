@@ -86,3 +86,7 @@ a[href="registro"]{
     float: right;
 }
 
+h3[class~="nombre"]{
+    text-align: center;
+}
+
