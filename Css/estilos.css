@@ -77,6 +77,9 @@ h4~p{
 
 selector de atributo basico*/
 
-footer[href]{
-    background: grey;
+a[href]{
+    text-decoration:none ;
 }
+
+
+
