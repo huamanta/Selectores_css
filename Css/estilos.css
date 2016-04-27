@@ -22,8 +22,8 @@ h2{
 /*selector de clase*/
 .principal{
     width: 300px;
-    height: 120px;
-    margin: 200px auto;
+    height: 330px;
+    margin: 100px auto;
 }
 
 /*selector de id*/
@@ -86,7 +86,12 @@ a[href="registro"]{
     float: right;
 }
 
-h3[class~="nombre"]{
+/*Selector de Atributo de una lista de valores separados por espacio*/
+h5[class~="nombre"]{
     text-align: center;
 }
 
+/*Selector de atributos de una lista de valores separados por un guion*/
+h5[class|="nombre"]{
+    background: red;
+}
