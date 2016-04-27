@@ -93,5 +93,6 @@ h5[class~="nombre"]{
 
 /*Selector de atributos de una lista de valores separados por un guion*/
 h5[class|="nombre"]{
-    background: red;
+    color: red;
+    text-align: center;
 }
