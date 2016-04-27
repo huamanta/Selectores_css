@@ -112,3 +112,17 @@ a[href$=".pe"]{
 p[title*="footer"]{
     font-family: monospace;
 }
+
+
+/*PSEUDOCLASES O PSEUDODELECTORES
+
+:link*/
+a:link{
+    color: blue;
+}
+
+/*:visited*/
+[href]:visited{
+color: gold;
+}
+
