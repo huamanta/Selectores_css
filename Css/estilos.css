@@ -126,3 +126,22 @@ a:link{
 color: gold;
 }
 
+/*:active*/
+input[type="submit"]:active {
+    transform: scale(0.85);
+}
+
+/*hover*/
+input[type="text"]:hover {
+    background: black;
+    color: white;
+    padding: 4px;
+    opacity: 5%;
+}
+
+input[type="text"]:hover {
+    background: black;
+    color: white;
+    padding: 4px;
+    opacity: 5%;
+}
