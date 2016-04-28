@@ -6,7 +6,6 @@
 }
 
 /*selector selector de etiqueta tipo o elemento*/
-
 h2{
     color: blue;
     text-align: center;
@@ -35,7 +34,6 @@ h2{
 /*selector descendentes combinados*/
 .principal #textos input{
     border-radius: 10px;
-    width: 250px;
     display: flex;
     margin: 10px 0;
     height: 20px;
@@ -84,6 +82,23 @@ a[href]{
 a[href="registro"]{
     float: right;
     text-decoration: none;
+}
+
+input[type="submit"] {
+     background: linear-gradient(#2929bf,#7c94cb);
+    border:5px;
+    color: black;
+     width: 50px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 250px;
+
+}
+
+input[type="password"] {
+    width: 250px;
 }
 
 /*Selector de Atributo de una lista de valores separados por espacio*/
@@ -135,11 +150,23 @@ input[type="submit"]:active {
 input[type="text"]:hover {
     background: black;
     color: white;
+
+}
+
+input[type="password"]:hover {
+    background: black;
+    color: white;
+}
+
+/*focus*/
+input[type="password"]:focus {
+    background: black;
+    color: white;
     padding: 4px;
     opacity: 5%;
 }
 
-input[type="text"]:hover {
+input[type="text"]:focus {
     background: black;
     color: white;
     padding: 4px;
